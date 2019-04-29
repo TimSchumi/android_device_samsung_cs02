@@ -54,4 +54,4 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TW_INCLUDE_CRYPTO := true
 
 # jemalloc causes a lot of random crash on free()
-MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true
